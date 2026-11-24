@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course Registration System</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <section id="register">
+        <form>
+            <div class="head">
+                <h2>Create Your Account</h2>
+                <p>Join Our Student Course Registration System</p>
+            </div>
+            <div class="body">
+                <div>
+                    <label for="Inputname" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="Inputname" placeholder="Enter Your Full Name">
+                </div>
+                <div>
+                    <label for="Inputid" class="form-label">Stydent Id</label>
+                    <input type="number" class="form-control" id="Inputid" placeholder="Enter Your Stydent Id">
+                </div>
+                <div>
+                    <label for="InputEmail" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Enter Your Email">
+                </div>
+                <div>
+                    <label for="InputPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="InputPassword" placeholder="Enter Your Password">
+                </div>
+                <div>
+                    <label for="Inputconfirm" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="Inputconfirm" placeholder="Confirm Your Password">
+                </div>
+                <label for="regRole" class="form-label">Account Type</label>
+                    <select id="regRole" class="form-select mb-3">
+                        <option value="student">Student</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                <button type="button" class="btn">Create Account</button>
+                <p id="registerMsg"></p>
+                <div class="create">
+                    <p class="">Don't have an account?</p>
+                    <a href="index.html">Login</a>
+                </div>
+            </div>
+        </form>
+    </section>
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course Registration System</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <section id="schedule">
+        <div class="sidebar">
+            <div class="title">
+                <h2>Course Registration</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="student_dashboard.html"><i class="fa-solid fa-sliders"></i>Dashboard</a>
+                    </li>
+                    <li><a href="available_courses.html"><i class="fa-solid fa-book-open"></i>available Courses</a></li>
+                    <li><a href="my_courses.html"><i class="fa-solid fa-book-open"></i>My Courses</a></li>
+                    <li  class="active"><a href="my_schedule.html"><i class="fa-solid fa-calendar-days"></i>My Schedule</a></li>
+                </ul>
+            </nav>
+            <a class="side-link" href="index.html"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+        </div>
+        <div class="content">
+            <div class="part1" >
+                <div>
+                    <h1 class="title"><i class="fa-regular fa-calendar-days"></i>My Schedule</h1>
+                    <p>view your registerd course schedule</p>
+                </div>
+                <button id="download"><i class="fa-solid fa-circle-down"></i><span>download schedule</span></button>
+            </div>
+            <div class="part2">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>course code</td>
+                            <td>course name</td>
+                            <td>day</td>
+                            <td>time</td>
+                            <td>instructor</td>
+                            <td>credit hours</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CS101</td>
+                            <td>System Analysis</td>
+                            <td>sunday</td>
+                            <td>9:00 - 11:00 AM</td>
+                            <td>Dr. Ahmed Hassan</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>CS205</td>
+                            <td>Logic Design</td>
+                            <td>Monday</td>
+                            <td>11:00 am - 1:00 PM</td>
+                            <td>Dr. Sara Mohamed</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>CS301</td>
+                            <td>Data Communication</td>
+                            <td>Tuesday</td>
+                            <td>9:00 - 11:00 AM</td>
+                            <td>Dr. Ali Khalid</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>mat222</td>
+                            <td>Data Structure</td>
+                            <td>Wednesday</td>
+                            <td>1:00 - 3:00 AM</td>
+                            <td>Dr. omar khalid</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>db556</td>
+                            <td>Database</td>
+                            <td>Thursday</td>
+                            <td>11:00 AM - 1:00 PM</td>
+                            <td>Dr. Omar saber</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>pl120</td>
+                            <td>Programing Language 2</td>
+                            <td>suterday</td>
+                            <td>9:00 - 11:00 AM</td>
+                            <td>Dr. Ali Khalid</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="part3">
+                <h5><i class="fa-solid fa-circle-info"></i>Total Credit Houres : 18</h5>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
